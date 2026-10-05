@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conselho"
+  short_description: "Conselho executivo baseado em evidências"
+  default_prompt: "Use $conselho para analisar esta decisão com pareceres independentes, contrapesos, vetos, confiança e veredito acionável."

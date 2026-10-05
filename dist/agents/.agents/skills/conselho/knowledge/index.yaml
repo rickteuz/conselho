@@ -1,0 +1,147 @@
+version: 1
+updated: 2026-10-05
+retrieval:
+  default_cards: 5
+  max_cards_without_confirmation: 9
+  require_counterweights: true
+  cite_ids: true
+personas:
+  jeff-bezos:
+    file: personas/jeff-bezos.md
+    domains: [cliente, mercado, demanda, experiência, velocidade, experimentação]
+    primary_tags: [customer-obsession, work-backwards, reversible-decision, trust, proxy]
+    counterweights: [steve-jobs, alex-hormozi, ray-dalio]
+  warren-buffett:
+    file: personas/warren-buffett.md
+    domains: [capital, orçamento, investimento, tempo, atenção, oportunidade]
+    primary_tags: [owner-economics, circle-of-competence, opportunity-cost, margin-of-safety, compounding]
+    counterweights: [sam-altman, ray-dalio, alex-hormozi]
+  ray-dalio:
+    file: personas/ray-dalio.md
+    domains: [risco, operação, falha, controle, causa-raiz, contingência]
+    primary_tags: [goals-problems-diagnosis-design, radical-truth, believability, second-order, feedback]
+    counterweights: [jeff-bezos, steve-jobs, sam-altman]
+  steve-jobs:
+    file: personas/steve-jobs.md
+    domains: [produto, inovação, experiência, foco, qualidade, posicionamento]
+    primary_tags: [focus, simplicity, integrated-experience, quality, saying-no, differentiation]
+    counterweights: [jeff-bezos, ray-dalio, alex-hormozi]
+  sam-altman:
+    file: personas/sam-altman.md
+    domains: [estratégia, visão, inovação, alavancagem, escala, iteração]
+    primary_tags: [long-term, compounding-advantage, iteration, ambition, optionality, humility]
+    counterweights: [warren-buffett, ray-dalio, jeff-bezos]
+  alex-hormozi:
+    file: personas/alex-hormozi.md
+    domains: [monetização, oferta, aquisição, preço, margem, entrega]
+    primary_tags: [dream-outcome, perceived-likelihood, time-delay, effort-sacrifice, offer, capacity]
+    counterweights: [jeff-bezos, warren-buffett, ray-dalio]
+cards:
+  - id: JB-01
+    persona: jeff-bezos
+    tags: [customer-obsession, work-backwards, demand]
+  - id: JB-02
+    persona: jeff-bezos
+    tags: [reversible-decision, velocity, experimentation]
+  - id: JB-03
+    persona: jeff-bezos
+    tags: [trust, proxy, customer-outcome]
+  - id: WB-01
+    persona: warren-buffett
+    tags: [owner-economics, intrinsic-value, capital]
+  - id: WB-02
+    persona: warren-buffett
+    tags: [circle-of-competence, uncertainty, abstention]
+  - id: WB-03
+    persona: warren-buffett
+    tags: [opportunity-cost, margin-of-safety, downside]
+  - id: RD-01
+    persona: ray-dalio
+    tags: [goals-problems-diagnosis-design, root-cause]
+  - id: RD-02
+    persona: ray-dalio
+    tags: [believability, disagreement, decision-quality]
+  - id: RD-03
+    persona: ray-dalio
+    tags: [second-order, controls, learning]
+  - id: SJ-01
+    persona: steve-jobs
+    tags: [focus, saying-no, product-line]
+  - id: SJ-02
+    persona: steve-jobs
+    tags: [integrated-experience, quality, people]
+  - id: SJ-03
+    persona: steve-jobs
+    tags: [differentiation, essence, simplicity]
+  - id: SA-01
+    persona: sam-altman
+    tags: [long-term, ambition, mission]
+  - id: SA-02
+    persona: sam-altman
+    tags: [iteration, real-world-feedback, uncertainty]
+  - id: SA-03
+    persona: sam-altman
+    tags: [compounding-advantage, optionality, resource-allocation]
+  - id: AH-01
+    persona: alex-hormozi
+    tags: [dream-outcome, offer, value]
+  - id: AH-02
+    persona: alex-hormozi
+    tags: [time-delay, effort-sacrifice, delivery]
+  - id: AH-03
+    persona: alex-hormozi
+    tags: [capacity, margin, proof, claims]
+  - id: JB-04
+    persona: jeff-bezos
+    tags: [work-backwards, press-release, customer-outcome]
+  - id: JB-05
+    persona: jeff-bezos
+    tags: [trust, customer-experience, long-term]
+  - id: JB-06
+    persona: jeff-bezos
+    tags: [reversible-decision, guardrails, experimentation]
+  - id: WB-04
+    persona: warren-buffett
+    tags: [temperament, long-term, uncertainty]
+  - id: WB-05
+    persona: warren-buffett
+    tags: [quality, owner-economics, margin-of-safety]
+  - id: WB-06
+    persona: warren-buffett
+    tags: [opportunity-cost, capital-allocation, attention]
+  - id: RD-04
+    persona: ray-dalio
+    tags: [believability, disagreement, decision-quality]
+  - id: RD-05
+    persona: ray-dalio
+    tags: [feedback, learning, root-cause]
+  - id: RD-06
+    persona: ray-dalio
+    tags: [controls, second-order, risk]
+  - id: SJ-04
+    persona: steve-jobs
+    tags: [people, quality, culture]
+  - id: SJ-05
+    persona: steve-jobs
+    tags: [positioning, differentiation, identity]
+  - id: SJ-06
+    persona: steve-jobs
+    tags: [simplicity, integrated-experience, focus]
+  - id: SA-04
+    persona: sam-altman
+    tags: [iteration, humility, real-world-feedback]
+  - id: SA-05
+    persona: sam-altman
+    tags: [ambition, governance, risk]
+  - id: SA-06
+    persona: sam-altman
+    tags: [compounding-advantage, optionality, resource-allocation]
+  - id: AH-04
+    persona: alex-hormozi
+    tags: [capacity, delivery, quality]
+  - id: AH-05
+    persona: alex-hormozi
+    tags: [acquisition, conversion, delivery, funnel]
+  - id: AH-06
+    persona: alex-hormozi
+    tags: [risk-reversal, offer, ethics]

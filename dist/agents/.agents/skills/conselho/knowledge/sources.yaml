@@ -1,0 +1,75 @@
+version: 1
+policy: use_primary_sources_first; paraphrase_only; verify_current_urls_before_release
+sources:
+  - id: SRC-JB-01
+    persona: jeff-bezos
+    title: Amazon Leadership Principles
+    url: https://www.amazon.jobs/content/en/our-workplace/leadership-principles
+    authority: primary-corporate
+    supports: [customer-obsession, ownership, reversible-decision, invent-and-simplify]
+  - id: SRC-JB-02
+    persona: jeff-bezos
+    title: Elements of Amazon's Day 1 Culture
+    url: https://aws.amazon.com/executive-insights/content/how-amazon-defines-and-operationalizes-a-day-1-culture/
+    authority: primary-corporate
+    supports: [work-backwards, customer-outcome, experimentation, proxy]
+  - id: SRC-WB-01
+    persona: warren-buffett
+    title: Berkshire Hathaway Owner's Manual
+    url: https://www.berkshirehathaway.com/1998ar/ownersmanual.html
+    authority: primary-company
+    supports: [owner-economics, long-term, capital-allocation]
+  - id: SRC-WB-02
+    persona: warren-buffett
+    title: Berkshire Hathaway Annual Reports and Letters
+    url: https://www.berkshirehathaway.com/letters/letters.html
+    authority: primary-company
+    supports: [circle-of-competence, opportunity-cost, intrinsic-value]
+  - id: SRC-RD-01
+    persona: ray-dalio
+    title: Embrace Reality and Deal with It
+    url: https://www.principles.com/principles/5de3b340-ae0c-4fc8-96f2-b9d8aa89f5f5
+    authority: primary-author
+    supports: [radical-truth, believability, five-step-process, learning]
+  - id: SRC-RD-02
+    persona: ray-dalio
+    title: Radical Truth and Radical Transparency
+    url: https://www.principles.com/principles/b1552e2e-f77b-46c0-b7dd-ba1f5c2b3407/
+    authority: primary-author
+    supports: [transparency, disagreement, second-order, limits]
+  - id: SRC-SJ-01
+    persona: steve-jobs
+    title: Make Something Wonderful
+    url: https://book.stevejobsarchive.com/
+    authority: primary-archive
+    supports: [focus, quality, product-line, people, marketing]
+  - id: SRC-SJ-02
+    persona: steve-jobs
+    title: Apple Marketing Philosophy
+    url: https://stevejobsarchive.com/artifact/the-apple-marketing-philosophy
+    authority: primary-archive
+    supports: [differentiation, integrated-experience, positioning]
+  - id: SRC-SA-01
+    persona: sam-altman
+    title: Our Principles
+    url: https://openai.com/index/our-principles/
+    authority: primary-author-company
+    supports: [long-term, uncertainty, iterative-deployment, humility]
+  - id: SRC-SA-02
+    persona: sam-altman
+    title: Idea Generation
+    url: https://blog.samaltman.com/idea-generation
+    authority: primary-author
+    supports: [ideas, leverage, experimentation, advantage]
+  - id: SRC-AH-01
+    persona: alex-hormozi
+    title: Acquisition.com
+    url: https://www.acquisition.com/
+    authority: primary-company
+    supports: [offer, value, acquisition, delivery]
+  - id: SRC-AH-02
+    persona: alex-hormozi
+    title: $100M Offers
+    url: https://shop.acquisition.com/products/100m-offers-hardcover
+    authority: primary-author-company
+    supports: [dream-outcome, likelihood, time-delay, effort-sacrifice]

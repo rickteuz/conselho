@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Conselho Calibration Dataset",
+  "type": "object",
+  "required": ["items"],
+  "properties": {
+    "items": {"type": "array", "items": {"type": "object", "required": ["confidence", "correct"], "properties": {"confidence": {"type": "number", "minimum": 0, "maximum": 100}, "correct": {"type": "boolean"}}}}
+  }
+}

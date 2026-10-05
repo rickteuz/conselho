@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "cases": [
+    {"id": "customer-outcome", "query": "validar dor do cliente e proposta", "primary": "jeff-bezos", "counterweights": ["warren-buffett", "steve-jobs"]},
+    {"id": "capital-choice", "query": "escolher investimento com margem de segurança", "primary": "warren-buffett", "counterweights": ["sam-altman", "ray-dalio"]},
+    {"id": "operational-risk", "query": "reduzir risco e aprender com falha recorrente", "primary": "ray-dalio", "counterweights": ["jeff-bezos", "warren-buffett"]},
+    {"id": "product-focus", "query": "simplificar produto e diferenciar experiência", "primary": "steve-jobs", "counterweights": ["jeff-bezos", "ray-dalio"]},
+    {"id": "scale-strategy", "query": "construir vantagem cumulativa com governança", "primary": "sam-altman", "counterweights": ["ray-dalio", "warren-buffett"]},
+    {"id": "offer-capacity", "query": "melhorar oferta sem destruir margem e entrega", "primary": "alex-hormozi", "counterweights": ["warren-buffett", "ray-dalio"]}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Conselho Decision Packet",
+  "type": "object",
+  "required": ["id", "objetivo", "alternativas", "decisor_humano", "limite_de_autorizacao"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^DEC-"},
+    "objetivo": {"type": "string", "minLength": 1},
+    "alternativas": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "decisor_humano": {"type": "string", "minLength": 1},
+    "limite_de_autorizacao": {"type": "string", "minLength": 1},
+    "reversibilidade": {"enum": ["reversivel", "parcialmente_reversivel", "irreversivel"]}
+  }
+}

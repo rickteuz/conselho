@@ -1,0 +1,6 @@
+{
+  "items": [
+    {"decision_id": "DEC-example-001", "persona": "jeff-bezos", "confidence": 70, "correct": true},
+    {"decision_id": "DEC-example-002", "persona": "warren-buffett", "confidence": 60, "correct": false}
+  ]
+}

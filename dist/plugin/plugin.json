@@ -1,0 +1,7 @@
+{
+  "name": "conselho",
+  "version": "2.4.0",
+  "description": "Conselho executivo portátil para decisões baseadas em evidências.",
+  "author": {"name": "Conselho community"},
+  "skills": "./.claude/skills/"
+}
